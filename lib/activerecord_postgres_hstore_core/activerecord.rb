@@ -124,7 +124,6 @@ module ActiveRecord
       def simplified_type_with_hstore(field_type)
         field_type == 'hstore' ? :hstore : simplified_type_without_hstore(field_type)
       end
-    
       alias_method_chain :type_cast_code, :hstore
       alias_method_chain :simplified_type, :hstore
     end
