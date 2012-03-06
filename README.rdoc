@@ -1,0 +1,29 @@
+= ActiveRecordHstoreCore
+
+This plugin Adds the Postgres column type Hstore to your system. You already have to have set up your databse to use this column type.
+
+== Installation
+
+To use it, add it to your Gemfile:
+  gem 'activerecord-postgres-hstore-core', '~> 0.0.4'
+
+== Testing
+
+ActiveRecordHstoreCore uses Rspec tests on both the serialization and the database. To test it, run
+  rake spec
+
+== Usage
+
+This is a stripped down version of the module at
+
+ https://github.com/softa/activerecord-postgres-hstore
+
+I have made it "more better" by removing the spurious rails install, removing the unneeded railtie, and added actual database tests.
+
+== Help
+
+ You can contact me at @entropyfails if you need help or email me at 
+
+== Copyright
+
+Copyright @ 2012 Jt Gleason, Juan Miaz,  MIT License
