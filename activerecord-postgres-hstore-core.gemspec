@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.description = %q{Allows you to use active record with databases that already have an hstore type}
   gem.summary = "Hstore AR for Hstore DB"
   gem.email = %q{jt@twitch.tv}
-  gem.homepage      = ''
+  gem.homepage      = 'https://github.com/jtvjt/activerecord-postgres-hstore-core'
 
   gem.add_dependency 'rails', '~> 3.0'
   gem.add_development_dependency 'rspec', '~> 2.6'
