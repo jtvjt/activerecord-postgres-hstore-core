@@ -22,7 +22,7 @@ I have made it "more better" by removing the spurious rails install, removing th
 
 == Help
 
- You can contact me at @entropyfails if you need help or email me at 
+ You can contact me at @entropyfails if you need help or email me at jt@justin.tv
 
 == Copyright
 

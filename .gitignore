@@ -1,4 +1,5 @@
 *.log
+*.gem
 *.sqlite3
 /pkg/*
 .bundle
