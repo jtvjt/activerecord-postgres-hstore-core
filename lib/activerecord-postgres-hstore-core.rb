@@ -1,5 +1,4 @@
 require 'rails'
-require 'pg'
 require "active_record"
 
 require "activerecord_postgres_hstore_core/string"
