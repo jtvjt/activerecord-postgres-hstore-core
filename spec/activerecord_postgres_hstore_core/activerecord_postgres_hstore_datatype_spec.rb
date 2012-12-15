@@ -93,4 +93,11 @@ describe "Datatypes Changes for Hstore" do
     ''.from_hstore.should eq({})
     '         '.from_hstore.should eq({})
   end
+
+  it "should not change values with line breaks" do
+    input = { "a" => "foo\n\nbar" }
+    output = input.to_hstore
+    output.from_hstore.should eq(input)
+  end
+
 end
