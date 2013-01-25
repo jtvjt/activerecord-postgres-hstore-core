@@ -5,7 +5,7 @@ This plugin Adds the Postgres column type Hstore to your system. You already hav
 == Installation
 
 To use it, add it to your Gemfile:
-  gem 'activerecord-postgres-hstore-core', '~> 0.0.4'
+  gem 'activerecord-postgres-hstore-core', '~> 0.0.6'
 
 == Testing
 
